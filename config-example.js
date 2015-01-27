@@ -2,11 +2,11 @@ var slackbot = require('./lib/bot');
 
 var config = {
     bot_name: "WebexBot",//Provide the name to post under.  Default is WebexBo
-    token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
+    token: 'xoxp-3484685712-3484685714-3527053802-888acc',
     webex_urls: {
-      "launch": "https://mypath.webex.com/meet/",//REPLACE THESE W/ YOUR COMPANY URLs
-      "join": "https://mypath.webex.com/join/",
-      "DEFAULT": "https://mypath.webex.com/"
+      "launch": "https://indiafreetrial.webex.com/meet/",//REPLACE THESE W/ YOUR COMPANY URLs
+      "join": "https://indiafreetrial.webex.com/join/",
+      "DEFAULT": "https://indiafreetrial.webex.com/"
     },
     pattern: /^\:webex\s+(personal\s+(\w+))\s*$/, //Default is: /webex personal username
     verbose: true,
